@@ -10,10 +10,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="10dp"
         android:background="#0000ff"
         android:gravity="center"
         android:text="Welcome to Android Pie"
@@ -31,26 +32,14 @@
         android:text="Click me"
         android:textSize="30sp" />
 
-    <EditText
-        android:id="@+id/phoneText"
+    <ImageView
+        android:id="@+id/img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="166dp"
-        android:ems="10"
-        android:hint="Type in your phone number"
-        android:inputType="phone" />
-
-    <EditText
-        android:id="@+id/nameText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="247dp"
-        android:editable="true"
-        android:ems="10"
-        android:inputType="textPersonName" />
+        android:layout_marginTop="253dp"
+        android:scaleType="matrix"
+        app:srcCompat="@drawable/hintersee" />
 
 </RelativeLayout>
