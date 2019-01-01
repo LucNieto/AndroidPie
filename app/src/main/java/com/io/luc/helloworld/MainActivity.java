@@ -1,9 +1,13 @@
 package com.io.luc.helloworld;
 
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import java.util.Calendar;
 
 
 /**
@@ -19,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void buttonClicked(View newView){
-        ImageView myImage = findViewById(R.id.img);
-        myImage.setImageResource(R.drawable.orangejuice);
+    public void calculateButtonPressed(View newView){
 
-
-
+        EditText petBornTextField = findViewById(R.id.edtPetBorn);
+        int petAge =  Calendar.getInstance().get(Calendar.YEAR)- Integer.parseInt(petBornTextField.getText().toString());
+        TextView petAgeTextView = findViewById(R.id.txtPetYearsOld);
+        petAgeTextView.setText(petAge + "");
     }
 }
