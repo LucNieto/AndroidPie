@@ -10,10 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginTop="108dp"
@@ -21,7 +18,7 @@
         android:gravity="center"
         android:text="Welcome to Android Pie"
         android:textColor="#fff"
-        android:textSize="80sp" />
+        android:textSize="40sp" />
 
     <Button
         android:id="@+id/clickMeBtn"
@@ -33,5 +30,27 @@
         android:onClick="buttonClicked"
         android:text="Click me"
         android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/phoneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="166dp"
+        android:ems="10"
+        android:hint="Type in your phone number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="247dp"
+        android:editable="true"
+        android:ems="10"
+        android:inputType="textPersonName" />
 
 </RelativeLayout>
