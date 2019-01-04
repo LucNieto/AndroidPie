@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
             ImageView imageView = (ImageView) gridLayout.getChildAt(index);
             imageView.setImageDrawable(null);
-            imageView.setAlpha(0.2f);
+            imageView.setAlpha(0.5f);
         }
 
         currentPlayer = Player.ONE;
@@ -102,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         gameOver = false;
+        btnReset.setVisibility(View.INVISIBLE);
 
     }
 
