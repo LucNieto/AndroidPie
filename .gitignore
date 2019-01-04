@@ -77,4 +77,21 @@ fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
 
+#images
+app/src/main/res/drawable-hdpi/lion.png
+app/src/main/res/drawable-ldpi/lion.png
+app/src/main/res/drawable-mdpi/lion.png
+app/src/main/res/drawable-xhdpi/lion.png
+app/src/main/res/drawable-xxhdpi/lion.png
+app/src/main/res/drawable-xxxhdpi/lion.png
+
+app/src/main/res/drawable-hdpi/tiger.png
+app/src/main/res/drawable-ldpi/tiger.png
+app/src/main/res/drawable-mdpi/tiger.png
+app/src/main/res/drawable-xhdpi/tiger.png
+app/src/main/res/drawable-xxhdpi/tiger.png
+app/src/main/res/drawable-xxxhdpi/tiger.png
+
+
+
 
